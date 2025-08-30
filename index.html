@@ -1,63 +1,60 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jim Cao • Photography</title>
-  <style>
-    :root { --max: 1200px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:#0f0f0f; color:#eee; }
-    header { max-width: var(--max); margin: 28px auto 10px; padding: 0 18px; }
-    h1 { margin: 0 0 6px; font-size: clamp(26px, 3vw, 38px); }
-    p.sub { margin: 0 0 18px; color:#b8b8b8; }
+<meta charset="utf-8">
+<title>Jim Cao — Photos</title>
 
-    /* Responsive gallery */
-    .grid {
-      max-width: var(--max);
-      margin: 0 auto 60px; padding: 0 18px;
-      display: grid; gap: 16px;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    }
-    figure { margin:0; background:#161616; border-radius:14px; overflow:hidden; }
-    img { width:100%; height:auto; display:block; }
-    figcaption { padding:10px 12px; font-size:14px; color:#cfcfcf; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Jim Cao — Recent Work</h1>
-    <p class="sub">Cities: Singapore, Tokyo, Shanghai, LA, SFO, Chicago.</p>
-  </header>
+<style>
+  /* simple, student-friendly styles */
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+         max-width: 900px; margin: 24px auto; padding: 0 12px; line-height: 1.5; }
+  h1 { margin: 0 0 8px; }
+  p.note { color: #666; margin: 0 0 18px; }
+  img { max-width: 100%; height: auto; display: block; margin: 12px 0; }
+  .cap { margin: -6px 0 22px; color: #555; font-size: 0.95rem; }
+</style>
 
-  <main class="grid">
-    <!-- Use the exact filenames you uploaded -->
-    <figure>
-      <img src="images/SIN.jpeg" alt="Singapore">
-      <figcaption>Singapore — Parkroyal on Pickering, motion at dusk.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/TYO.jpeg" alt="Tokyo">
-      <figcaption>Tokyo — storm clouds over Yakult tower.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Shanghai.jpeg" alt="Shanghai">
-      <figcaption>Shanghai — skyline perspective.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/SFO.jpeg" alt="San Francisco">
-      <figcaption>San Francisco — evening glass and sky.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/LA.jpeg" alt="Los Angeles">
-      <figcaption>Los Angeles — downtown reflections.</figcaption>
-    </figure>
-    <figure>
-      <img src="images/CHI.jpeg" alt="Chicago">
-      <figcaption>Chicago — riverfront geometry.</figcaption>
-    </figure>
-    <!-- Add more: TYO2.jpeg, TYO3.jpeg, TYO4.jpeg, CHI2.jpeg, CHI3.jpeg, Singapore.jpeg, etc. -->
-  </main>
-</body>
-</html>
+<h1>Jim Cao — Photos</h1>
+<p class="note">A few pictures for my CS project.</p>
 
+<!-- Singapore -->
+<img src="images/SIN.jpeg" alt="Singapore city scene">
+<p class="cap">Singapore — Parkroyal on Pickering.</p>
+
+<!-- Tokyo -->
+<img src="images/TYO.jpeg" alt="Tokyo city scene">
+<p class="cap">Tokyo — Yakult tower.</p>
+
+<!-- Shanghai -->
+<img src="images/Shanghai.jpeg" alt="Shanghai skyline">
+<p class="cap">Shanghai — skyline perspective.</p>
+
+<!-- San Francisco -->
+<img src="images/SFO.jpeg" alt="San Francisco building">
+<p class="cap">San Francisco — evening glass and sky.</p>
+
+<!-- Los Angeles -->
+<img src="images/LA.jpeg" alt="Los Angeles building">
+<p class="cap">Los Angeles — downtown reflections.</p>
+
+<!-- Chicago (3 photos) -->
+<img src="images/CHI.jpeg" alt="Chicago riverfront">
+<p class="cap">Chicago — riverfront geometry.</p>
+
+<img src="images/CHI2.jpeg" alt="Chicago city scene">
+<p class="cap">Chicago — city scene 2.</p>
+
+<img src="images/CHI3.jpeg" alt="Chicago city scene">
+<p class="cap">Chicago — city scene 3.</p>
+
+<!-- Another Singapore -->
+<img src="images/Singapore.jpeg" alt="Singapore skyline">
+<p class="cap">Singapore — downtown view.</p>
+
+<!-- Tokyo extras -->
+<img src="images/TYO2.jpeg" alt="Tokyo city scene">
+<p class="cap">Tokyo — city scene 2.</p>
+
+<img src="images/TYO3.jpeg" alt="Tokyo city scene">
+<p class="cap">Tokyo — city scene 3.</p>
+
+<img src="images/TYO4.jpeg" alt="Tokyo city scene">
+<p class="cap">Tokyo — city scene 4.</p>
